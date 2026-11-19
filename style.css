@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #42516b;
+}
+header {
+  background: linear-gradient(135deg, #e94560, #c81e45);
+  background-size: cover;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  width:100%;
+ padding: 35px 20px;
+  font-size: 100%;
+}
+header h2 {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+header p
+{  margin: 0;
+  font-size: 14px;
+  
+}
+main {
+  padding: 30px;
+}
+section {
+  background: #fafafa;
+  border-left: 4px solid #e94560;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+section h2 {
+  margin: 0 0 18px;
+  font-size: 18px;
+  color:#1a1a2e;
+}
+
+.motif {
+  background: #fff3cd;
+  border-radius: 8px;
+  border-left: 4px solid #e0de35;
+  padding: 12px 15px;
+  margin: 0 0 25px;
+  color:rgb(180, 132, 41);
+  font-size: 13px;
+}
+.part {
+  display: flex;
+  gap: 20px;
+}
+
+.part .half_part {
+  flex: 1;
+}
+
+.half_part {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 13px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="number"],
+input[type="search"],
+input[type="url"],
+select,textarea {
+  width: 100%;
+  padding: 11px 12px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 13px;
+}
+legend {
+    padding: 0 8px; 
+  color: #e94560;
+  font-weight: bold;
+}
+fieldset {
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 0 0 20px;
+}
+.choice {
+  display: block;
+  margin: 8px 0;
+  padding: 12px;
+  background: #fff;
+}
+.choice input {
+  margin-right: 8px;
+  accent-color: #e94560;
+}
+.range-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.range-row input {
+  flex: 1;
+  accent-color: #e94560;
+}
+.card  {
+  background: #e94560;
+  color: #fff;
+  padding: 6px 18px;
+  border-radius: 20px;
+}
+.border{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 2px dashed #cbd5e0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 45px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(135deg, #e94560, #c81e45);
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 0 6px 18px rgba(233, 69, 96, 0.4);
+  }
